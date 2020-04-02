@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import com.google.gson.annotations.SerializedName;
 
-public class MovieDiscoverResponse{
+public class MovieDiscoverResponse {
 
 	@SerializedName("page")
 	private int page;
@@ -53,7 +53,7 @@ public class MovieDiscoverResponse{
 	@Override
  	public String toString(){
 		return 
-			"MovieDiscoverResponse{" + 
+			"MovieDiscoverResponse{" +
 			"page = '" + page + '\'' + 
 			",total_pages = '" + totalPages + '\'' + 
 			",results = '" + results + '\'' + 
